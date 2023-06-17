@@ -1,0 +1,16 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test_src:
+    name: test_src
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Test
+        run: |
+          ./scripts/run_unit_tests.sh

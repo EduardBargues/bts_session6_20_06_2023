@@ -1,0 +1,17 @@
+{
+  "name": "save_user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack": "npm-pack-zip"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "npm-pack-zip": "^1.2.9"
+  },
+  "bundledDependencies": []
+}

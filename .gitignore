@@ -1,0 +1,4 @@
+credentials.sh
+node_modules
+*.zip
+package-lock.json
